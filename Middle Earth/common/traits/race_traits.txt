@@ -211,7 +211,7 @@ ruler_designer_cost = 0
 	same_opinion = 20
 }
 #--------------------------------------------------------------------
-# Númenórian Race Traits
+# NÃºmenÃ³rian Race Traits
 # These probably need to be cleaned up (who gets which traits)
 
 numenorean = {
@@ -499,6 +499,26 @@ blood_of_dale = {
 	
 }
 
+blood_of_hurin = {
+	customizer = no
+	health = 5.0
+	fertility_penalty = -0.1	
+	learning = -2
+	martial = 2
+	agnatic = yes
+	same_opinion = 20
+	vassal_opinion = 50		
+	# over_vassal_limit = 15	
+	cached = yes
+
+	command_modifier = {
+		damage = 0.2		
+		morale_offence = 0.1
+		morale_defence = 0.1	
+	}
+	
+}
+
 blood_of_imrazor = {
 	customizer = no
 	health = 5.0
@@ -577,9 +597,8 @@ blood_of_olwe = {
 	}
 	
 }
-customizer = no
 blood_of_oropher = {
-	
+	customizer = no
 	health = 5.0
 	fertility_penalty = -0.1	
 	learning = -2
@@ -597,7 +616,6 @@ blood_of_oropher = {
 	}
 	
 }
-customizer = no
 blood_of_thorondor = {
 	customizer = no
 	health = 7.0
@@ -638,6 +656,25 @@ blood_of_valandil = {
 	
 }
 
+blood_of_vidugavia = {
+	customizer = no
+	health = 5.0
+	fertility_penalty = -0.1	
+	learning = -2
+	martial = 2
+	agnatic = yes
+	same_opinion = 20
+	vassal_opinion = 50		
+	# over_vassal_limit = 15	
+	cached = yes
+
+	command_modifier = {
+		damage = 0.2		
+		morale_offence = 0.1
+		morale_defence = 0.1	
+	}
+	
+}
 half_elf = {
     health = 12.0
 	customizer = yes
@@ -1003,16 +1040,16 @@ ruler_designer_cost = 0
 	same_opinion = 100
 	cached = yes
 }
-# The Nazgûl are Wights+
+# The NazgÃ»l are Wights+
 nazgul = {
-	# those who hate Nazgûl (most everybody not evil)
+	# those who hate NazgÃ»l (most everybody not evil)
 	religion_group_eldar_opinion = -100
 	religion_group_khazad_opinion = -100
 	religion_group_eruhini_opinion = -100
 	religion_group_periannath_opinion = -80
 	religion_group_enyd_opinion = -80
 	religion_group_edain_opinion = -80
-	religion_group_hildor_opinion = -10  # Even Men of Darkness surely find Nazgûl unsettling
+	religion_group_hildor_opinion = -10  # Even Men of Darkness surely find NazgÃ»l unsettling
 	
 	health = 1000.0 #Hope to see less Nazgul deaths of old age
 	# immortal = yes
@@ -1135,7 +1172,7 @@ uruloke = {
 	ai_honor = -100 #Influences the likelihood the AI will honor relationships and alliances, and the chance of attacking despite such relations. Also affects its likelihood of joining plots.
 	cached = yes
 }
-## Ringlókë
+## RinglÃ³kÃ«
 cold_drake = {
 	potential = {
 		religion_group = religion_group_dragon
@@ -1161,7 +1198,7 @@ cold_drake = {
 	cached = yes
 }
 
-## Penrámalókë
+## PenrÃ¡malÃ³kÃ«
 long_worms = {
 	potential = {
 		religion_group = religion_group_dragon
